@@ -30,12 +30,12 @@ class giao_vien
 		}
 		
 		friend	giao_vien	&operator >> (istream &is, giao_vien &gv) {
-			fflush(stdin);//xoa bo nho dem.
+			fflush(stdin);
 			cout<<"Nhap vao ten: ";
 			is.getline(gv.ho_ten, 30);
 			cout<<"Nhap vao tuoi: ";
 			is>>gv.tuoi;
-			fflush(stdin);//xoa bo nho dem
+			fflush(stdin);
 			cout<<"Nhap vao bang cap (1: Kha, 2: Gioi, 3: Xuat sac): ";
 			do{
 				is.getline(gv.bang_cap, 15);
