@@ -71,7 +71,7 @@ class giao_vien
 		}
 		
 		bool operator > (giao_vien gv){
-			return (strcmpi(bang_cap, gv.bang_cap) > 0);// true
+			return (strcmpi(bang_cap, gv.bang_cap) > 0);
 		}
 		char* getht(){
 			return ho_ten;
