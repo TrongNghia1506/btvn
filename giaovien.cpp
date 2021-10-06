@@ -40,7 +40,7 @@ class giao_vien
 			do{
 				is.getline(gv.bang_cap, 15);
 				if(strcmpi(gv.bang_cap, "1") != 0 && strcmpi(gv.bang_cap, "2") != 0 && strcmpi(gv.bang_cap, "3") != 0){
-					cout<<"\n Ban chi duoc nhap tu 1 -> 3: ";
+					cout<<"\n Ban nhap sai roi nhap lai : ";
 				}
 			}while(strcmpi(gv.bang_cap, "1") != 0 && strcmpi(gv.bang_cap, "2") != 0 && strcmpi(gv.bang_cap, "3") != 0);
 			cout<<"Nhap vao chuyen nganh: ";
